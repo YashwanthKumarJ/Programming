@@ -1,5 +1,11 @@
 package com.solution;
 
+/**
+ * Unit testing Pyramid Printing
+ * 
+ * @author Yashwanth
+ *
+ */
 import static org.junit.Assert.*;
 
 import java.io.ByteArrayOutputStream;
