@@ -1,4 +1,4 @@
-# 3-programming
+# Programming
 This repository collects implementation of various programming questions
 
 ## Print Pyramid
