@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <name>PrintPyramid</name>
-    <description>This module provides solution for different print pyramid questions.</description>
+    <name>JsonParser</name>
+    <description>This module implements different Json parser related programming solutions.</description>
     <groupId>com.github.yj.programming-solution</groupId>
-    <artifactId>print-pyramid</artifactId>
+    <artifactId>json-parser</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -49,4 +49,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
