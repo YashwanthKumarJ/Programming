@@ -2,6 +2,8 @@
  * This example code calculates EMI for a month for Mortgage loan
  *
  * formula : principal * ( (interest_rate * (1 + interest_rate) ^ tenure_months) / (((1 + interest_rate) ^ tenure_months) - 1) )
+ *
+ * @author Yashwanth
  */
 package com.solution;
 
