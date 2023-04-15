@@ -19,6 +19,7 @@
 		<module>PrintPyramid</module>
 		<module>JsonParser</module>
 		<module>Threading</module>
+		<module>General</module>
 	</modules>
 
 	<dependencyManagement>
