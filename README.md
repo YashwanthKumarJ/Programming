@@ -5,7 +5,7 @@ This repository collects implementation of various programming questions
 The code is tested in java 16.
 
 # Build
-mvn clean install
+mvn package
 
 Note: You can build individual project. For that just change directory to the project inside Programming and run the command
 
