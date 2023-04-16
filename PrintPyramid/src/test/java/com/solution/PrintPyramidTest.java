@@ -54,19 +54,19 @@ public class PrintPyramidTest {
     @Test
     public void shouldPrintUprightInCorrectOrder() {
         printPyramidSolution.printUpright("abc", 3);
-        assertEquals("  a\r\n acb\r\nbcabc\r\n", outContent.toString());
+        assertEquals("  a\n acb\nbcabc\n", outContent.toString());
     }
 
     @Test
     public void shouldPrintCorrectRowsInUpright() {
         printPyramidSolution.printUpright("abc", 4);
-        assertEquals("   a\r\n  acb\r\n bcabc\r\nacbacba\r\n", outContent.toString());
+        assertEquals("   a\n  acb\n bcabc\nacbacba\n", outContent.toString());
     }
 
     @Test
     public void shouldPrintZeroSpaceInUprightForRowCountOne() {
         printPyramidSolution.printUpright("xyz", 1);
-        assertEquals("x\r\n", outContent.toString());
+        assertEquals("x\n", outContent.toString());
     }
 
     @Test
@@ -93,19 +93,19 @@ public class PrintPyramidTest {
     @Test
     public void shouldPrintUprightInCorrectOrderInDownPrint() {
         printPyramidSolution.printDown("abc", 3);
-        assertEquals("abcab\r\n bac\r\n  c\r\n", outContent.toString());
+        assertEquals("abcab\n bac\n  c\n", outContent.toString());
     }
 
     @Test
     public void shouldPrintCorrectRowsInDownPrint() {
         printPyramidSolution.printDown("abc", 4);
-        assertEquals("abcabca\r\n cbacb\r\n  abc\r\n   a\r\n", outContent.toString());
+        assertEquals("abcabca\n cbacb\n  abc\n   a\n", outContent.toString());
     }
 
     @Test
     public void shouldPrintZeroSpaceInDownPrintForRowCountOne() {
         printPyramidSolution.printDown("xyz", 1);
-        assertEquals("x\r\n", outContent.toString());
+        assertEquals("x\n", outContent.toString());
     }
 
     @Test
