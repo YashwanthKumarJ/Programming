@@ -6,15 +6,14 @@
 
     <name>General</name>
     <description>This module provides solutions for various programming problems which are off generic.</description>
-    <groupId>com.github.yj.programming-solution</groupId>
-    <artifactId>general</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId><![CDATA[general-solution]]></artifactId>
+    <version>${revision}</version>
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>com.github.yj</groupId>
+        <groupId>com.github.yashwanth.programming</groupId>
         <artifactId>programming-solution</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
 
     <dependencies>

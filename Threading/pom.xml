@@ -6,15 +6,14 @@
 
     <name>Threading</name>
     <description>This module provides solution for different java threading questions.</description>
-    <groupId>com.github.yj.programming-solution</groupId>
-    <artifactId>thread-solution</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId><![CDATA[thread-solution]]></artifactId>
+    <version>${revision}</version>
     <packaging>jar</packaging>
 
     <parent>
+        <groupId>com.github.yashwanth.programming</groupId>
         <artifactId>programming-solution</artifactId>
-        <groupId>com.github.yj</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
 
     <dependencies>
@@ -50,5 +49,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

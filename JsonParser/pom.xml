@@ -1,19 +1,19 @@
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="http://maven.apache.org/POM/4.0.0"
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <name>JsonParser</name>
     <description>This module implements different Json parser related programming solutions.</description>
-    <groupId>com.github.yj.programming-solution</groupId>
-    <artifactId>json-parser</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId><![CDATA[json-parser]]></artifactId>
+    <version>${revision}</version>
     <packaging>jar</packaging>
 
     <parent>
-        <groupId>com.github.yj</groupId>
+        <groupId>com.github.yashwanth.programming</groupId>
         <artifactId>programming-solution</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
 
     <dependencies>
@@ -49,5 +49,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
