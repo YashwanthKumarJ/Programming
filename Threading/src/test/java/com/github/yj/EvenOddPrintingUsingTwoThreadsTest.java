@@ -42,7 +42,7 @@ class EvenOddPrintingUsingTwoThreadsTest {
             e.printStackTrace();
         }
 
-        assertEquals("Even Thread 0\r\n", outContent.toString());
+        assertEquals("Even Thread 0\n", outContent.toString());
     }
 
     @Test
@@ -57,11 +57,11 @@ class EvenOddPrintingUsingTwoThreadsTest {
         }
 
         assertEquals("""
-                Even Thread 0\r
-                Odd Thread 1\r
-                Even Thread 2\r
-                Odd Thread 3\r
-                Even Thread 4\r
+                Even Thread 0
+                Odd Thread 1
+                Even Thread 2
+                Odd Thread 3
+                Even Thread 4
                 """, outContent.toString());
     }
 
@@ -77,12 +77,12 @@ class EvenOddPrintingUsingTwoThreadsTest {
         }
 
         assertEquals("""
-                Even Thread 0\r
-                Odd Thread 1\r
-                Even Thread 2\r
-                Odd Thread 3\r
-                Even Thread 4\r
-                Odd Thread 5\r
+                Even Thread 0
+                Odd Thread 1
+                Even Thread 2
+                Odd Thread 3
+                Even Thread 4
+                Odd Thread 5
                 """, outContent.toString());
     }
 }
