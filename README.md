@@ -2,7 +2,7 @@
 This repository collects implementation of various programming questions
 
 # Pre-requisite
-The code is tested in java 16.
+The code is tested in java 17.
 
 # Build
 mvn package

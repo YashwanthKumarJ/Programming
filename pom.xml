@@ -1,25 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.github.yj</groupId>
+	<name>Programming Repository</name>
+	<description>This repository contains modules that provides solutions to various programming questions/problems.</description>
+	<groupId>com.github.yashwanth.programming</groupId>
 	<artifactId>programming-solution</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${revision}</version>
 	<packaging>pom</packaging>
 
 	<properties>
+		<revision>1.0.0-SNAPSHOT</revision>
 		<java.version>17</java.version>
-		<maven.compiler.target>16</maven.compiler.target>
-		<maven.compiler.source>16</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<modules>
-		<module>PrintPyramid</module>
-		<module>JsonParser</module>
-		<module>Threading</module>
 		<module>General</module>
+		<module>Threading</module>
+		<module>JsonParser</module>
 	</modules>
 
 	<dependencyManagement>
@@ -51,7 +54,7 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
 				<configuration>
-					<release>16</release>
+					<release>17</release>
 				</configuration>
 			</plugin>
 			<plugin>
